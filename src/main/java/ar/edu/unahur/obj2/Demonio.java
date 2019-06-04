@@ -16,7 +16,7 @@ public abstract class Demonio {
         lugar.getAlmas().stream().forEach(alma -> cazarOAtormentar(lugar, alma));
     }
 
-    protected void cazarOAtormentar(Lugar lugar, Alma alma) {
+    protected void cazarOAtormentar(Lugar lugar, AlmaSimple alma) {
         int almasAtormentadas=0;
         int almasCazadas=0;
 
@@ -38,12 +38,12 @@ public abstract class Demonio {
         lugar.quitarAlma(alma);
         almasCazadas.add(alma);
     }
-    protected void atormentarAlma(Alma alma) {
+    protected void atormentarAlma(AlmaSimple alma) {
         alma.setValor(alma.getValor()-5);
         atormentar(alma);
     }
 
-    protected abstract void atormentar(Alma a);
-    protected abstract boolean puedoCazarlo(Alma a);
+    protected abstract void atormentar(AlmaSimple a);
+    protected abstract boolean puedoCazarlo(AlmaSimple a);
 
 }

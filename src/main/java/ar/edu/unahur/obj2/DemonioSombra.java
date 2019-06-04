@@ -7,12 +7,12 @@ public class DemonioSombra extends Demonio {
     }
 
     @Override
-    protected void atormentar(Alma alma) {
+    protected void atormentar(AlmaSimple alma) {
         alma.setValor(alma.getValor()/2);
     }
 
     @Override
-    protected boolean puedoCazarlo(Alma a) {
+    protected boolean puedoCazarlo(AlmaSimple a) {
         return a.getValor() < 50;
     }
 }
