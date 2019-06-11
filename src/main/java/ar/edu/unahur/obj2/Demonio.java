@@ -27,7 +27,7 @@ public abstract class Demonio {
             cazar(lugar, alma);
         } else {
             almasAtormentadas++;
-            atormentar(alma);
+            atormentarAlma(alma);
         }
         incrementarNivelMaldad(almasCazadas, almasAtormentadas);
     }
