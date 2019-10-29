@@ -1,5 +1,50 @@
 # "Diabólico III"
 
+## Entrega
+
+La solución y entrega de esta segunda parte se va a realizar en el repositorio provisto por los profesores.
+
+Se deben subir los cambios en un branch llamado `recuperatorio_1` y se debe crear el pull request correspondiente en Github.
+
+El código debe compilar y debe tener test unitarios que verifiquen la funcionalidad desarrollada.
+
+
+### Creación del branch
+
+El siguiente comando nos crea el nuevo branch y luego nos deja ya parados el mismo
+
+```console
+  git checkout -b recuperatorio_1
+```
+
+### Subida de los cambios
+
+La primera vez que subimos los cambios, se crea el branch en el repositorio remoto, para eso hay que ejecutar el siguiente comando:
+
+```console
+  git push -u origin recuperatorio_1
+```
+
+Luego si es necesario subir nuevos commits, ejecutamos:
+
+```console
+  git push
+```
+
+### Crear Pull Request
+
+Siempre que comiteamos sobre un branch, github nos ofrece crear un pull request.
+También podemos crearlo usando el botón `New pull request`.
+
+## Las condiciones mínimas NECESARIAS para aprobar
+
+- Respertar la forma de entrega
+- el código debe compilar
+- Los tests tiene que correr
+- Ambos ejercicios tienen que tener una resolución.
+
+Cumpliar son necesarias pero no suficiente para aprobar, dependerá luego de la resolución provista. Tener en cuenta que los test unitarios son parte de la resolución.
+
 
 # Parte 1: Escondites
 Las almas están cansadas de ser casadas por los demonios y desarrollan una habilidad que les permite, momentos antes de ser cazadas por un demonio, esconderse dentro del lugar al que pertenece y de esa forma evitar se cazadas.
