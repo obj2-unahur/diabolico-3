@@ -47,13 +47,13 @@ Cumpliar son necesarias pero no suficiente para aprobar, dependerá luego de la 
 
 
 # Parte 1: Escondites
-Las almas están cansadas de ser casadas por los demonios y desarrollan una habilidad que les permite, momentos antes de ser cazadas por un demonio, esconderse dentro del lugar al que pertenece y de esa forma evitar se cazadas.
+Las almas están cansadas de ser cazadas por los demonios y desarrollan una habilidad que les permite, momentos antes de ser cazadas por uno, esconderse dentro del lugar al que pertenece y de esa forma evitar se cazadas.
 
-Existen lugares más seguros donde las almas pueden esconderse al intentar ser cazadas y lugares más inseguros.
-Cuando un demonio intenta cazar en un lugar seguro, las almas corren a esconderse. Dependiendo las condiciones del lugar cada una logra o no. Si el alma logró esconderse el demonio no logra cazarla. Si puede atormentarla.
+Existen lugares más seguros donde las almas pueden esconderse de forma fácil y lugares más inseguros.
+Cuando un demonio intenta cazar en un lugar, las almas corren a esconderse. Dependiendo las condiciones del lugar, un alma puede lograrlo o no. Si el alma logró esconderse el demonio no logra cazarla pero SI puede atormentarla.
 
 Existen distintos lugares, algunos mas seguros que otros, pero en todos hay escondites en donde las almas pueden esconderse, eso si, todos los lugares tienen un límite de almas para esconder. Si llegó al límite, no se aceptan mas almas.
-Por otro lado, por esconderse un alma debe pagar un costo, ese costo depende del lugar.
+Por otro lado, por esconderse un alma debe pagar un penalidad que depende del lugar.
 
 Por último, Cuándo salen las almas del escondite?, salen ni bien un demonio termina de cazar en ese lugar.
 
