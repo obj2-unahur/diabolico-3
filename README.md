@@ -29,6 +29,22 @@ Por último, Cuándo salen las almas del escondite?, salen ni bien un demonio te
 - Si hay lugar, el alma NO es friolenta y  su `bondad` es igual a su `valor`, puede esconderse
 - Se la penaliza conviertiendola en `friolanta`
 
-# Parte 2
-Por otro lado, los demonios adquieren armas y si están en el mismo lugar, antes de cazar, luchan con otros demonios y dependiendo qué tipo de demonio son y qué arma usan ganan o pierden el combate. 
+# Parte 2: Batallas
+El diablo a veces se aburre y para buscar algo de entretenimiento, organizó un torneo de batallas entre Demonios.
+Para esto, cada demonio cuento con un conjunto de armas que le otorgan determinada energia.
 
+Cada batalla consiste en la lucha entre 2 y gana el demonio que tiene mas poder. 
+El poder de un demonio se calcula de la siguiente manera:
+
+- poder: energia (provista por el arma) * nivel de maldad * cantidad de almas cazadas
+
+Las batallas permiten que haya empates, en caso de empate.
+
+### Premios y castigos
+Luego de terminada una batalla, el diablo premia al ganadores y castiga al perdedor. Los premios y castigos dependen del humor del diablo, si está `contento` al ganador le otorna 10 puntos extras en su nivel de maldad y al perdedor solo le quita 2 almas cazadas. En cambio, si el diablo esta `triste` al ganador solo le otorga 1 punto extra en su nivel de maldad y al perdedor le quita todas las almas cazadas.
+
+### Armas
+Las almas disponibles para los demonios son las siguientes:
+- Espada: Entrega 20 de poder
+- Ballesta: Entrega 15 de poder
+- Arco y flecha: Entrega 5 de poder
